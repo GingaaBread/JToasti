@@ -1,0 +1,50 @@
+BorderPane {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-border-width: 0px 0px 0px 3px;
+}
+
+BorderPane .title {
+    -fx-font-weight: bold;
+    -fx-font-size: 2em;
+    -fx-font-family: 'Roboto' sans-serif;
+}
+
+BorderPane .description {
+    -fx-font-size: 1em;
+    -fx-font-family: 'Roboto' sans-serif;
+    -fx-text-fill: #5A6060;
+}
+
+BorderPane:information {
+    -fx-background-color: #CCDDFF;
+    -fx-border-color: #3498db;
+}
+
+BorderPane:success {
+    -fx-background-color: #CEFFBF;
+    -fx-border-color: #2ecc71;
+}
+
+BorderPane:warning {
+    -fx-background-color: #FFF3C6;
+    -fx-border-color: #f1c40f;
+}
+
+BorderPane:undo {
+    -fx-background-color: #2c3e50;
+    -fx-border-color: #e74c3c;
+}
+
+BorderPane:undo .title {
+    -fx-text-fill: white;
+}
+
+BorderPane:undo .description {
+    -fx-text-fill: white;
+}
+
+BorderPane .undo-button {
+    -fx-background-color: #2c3e50;
+    -fx-border-color: #e74c3c;
+    -fx-text-fill: #e74c3c;
+}
