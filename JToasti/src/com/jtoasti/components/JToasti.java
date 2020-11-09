@@ -112,11 +112,10 @@ public class JToasti extends VBox
 	 * Adds a toast with a given title and description to the toast container
 	 * 
 	 * @since 1.0
-	 * @param toastType       The type of toast that is to be displayed
-	 * @param titleText       The title of the toast
-	 * @param descriptionText The description of the toast
-	 * @throws IllegalStateException Thrown if the UNDO toast type is spawned
-	 *                               without having set the OnUndo event
+	 * @param toastType	The type of toast that is to be displayed
+	 * @param titleText	The title of the toast
+	 * @param descriptionText	The description of the toast
+	 * @throws IllegalStateException	Thrown if the UNDO toast type is spawned without having set the OnUndo event
 	 * @see ToastType
 	 * @see setOnUndo
 	 */
@@ -130,12 +129,11 @@ public class JToasti extends VBox
 	 * toast container
 	 * 
 	 * @since 3.0
-	 * @param lifetime
-	 * @param toastType       The type of toast that is to be displayed
-	 * @param titleText       The title of the toast
-	 * @param descriptionText The description of the toast
-	 * @throws IllegalStateException Thrown if the UNDO toast type is spawned
-	 *                               without having set the OnUndo event
+	 * @param lifetime	The lifetime of the toast in seconds
+	 * @param toastType	The type of toast that is to be displayed
+	 * @param titleText	The title of the toast
+	 * @param descriptionText	The description of the toast
+	 * @throws IllegalStateException	Thrown if the UNDO toast type is spawned without having set the OnUndo event
 	 * @see ToastType
 	 * @see setOnUndo
 	 */
