@@ -15,6 +15,10 @@ BorderPane .description {
     -fx-text-fill: #5A6060;
 }
 
+BorderPane .close-button {
+    -fx-background-color: TRANSPARENT;
+}
+
 BorderPane:information {
     -fx-background-color: #CCDDFF;
     -fx-border-color: #3498db;
