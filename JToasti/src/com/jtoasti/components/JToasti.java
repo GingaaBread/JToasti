@@ -58,7 +58,7 @@ public class JToasti extends VBox
 	private boolean useDefaultCloseButtonColor;
 
 	/**
-	 * Constructs a toast container with a life time of five seconds
+	 * Constructs a toast container with a lifetime of five seconds
 	 * 
 	 * @since 1.0
 	 */
@@ -68,14 +68,14 @@ public class JToasti extends VBox
 	}
 
 	/**
-	 * Constructs a toast container with the specified life time
+	 * Constructs a toast container with the specified lifetime
 	 * 
 	 * @since 2.0
-	 * @param lifeTime The lifetime of the toasts in seconds
+	 * @param lifetime The lifetime of the toasts in seconds
 	 */
-	public JToasti(double lifeTime)
+	public JToasti(double lifetime)
 	{
-		this.lifetime = lifeTime;
+		this.lifetime = lifetime;
 		fadeOutTime = 1d;
 		prefToastWidth = 350d;
 		prefToastHeight = 100d;
@@ -95,10 +95,10 @@ public class JToasti extends VBox
 	 * Provides the four different toast types
 	 * </p>
 	 * <ul>
-	 * <li>Information: Used to inform the user about an event</li>
-	 * <li>Warning: Used to warn the user about an event</li>
-	 * <li>Success: Used to display a success message</li>
-	 * <li>Undo: Used to warn the user about an event that can be undone</li>
+	 * 	<li>Information: Used to inform the user about an event</li>
+	 * 	<li>Warning: Used to warn the user about an event</li>
+	 *	 <li>Success: Used to display a success message</li>
+	 * 	<li>Undo: Used to warn the user about an event that can be undone</li>
 	 * </ul>
 	 *
 	 * @since 1.0
@@ -379,7 +379,7 @@ public class JToasti extends VBox
 
 	/**
 	 * @since 3.0
-	 * @return The prefered width of the toast
+	 * @return The preferred width of the toast
 	 * @see getPrefWidth
 	 */
 	public double getPrefToastWidth()
@@ -388,7 +388,7 @@ public class JToasti extends VBox
 	}
 
 	/**
-	 * Sets the prefered width of the toast
+	 * Sets the preferred width of the toast
 	 * 
 	 * @since 3.0
 	 * @param prefToastWidth The width of the toast
@@ -401,7 +401,7 @@ public class JToasti extends VBox
 
 	/**
 	 * @since 1.0
-	 * @return The prefered height of the toast
+	 * @return The preferred height of the toast
 	 * @see getPrefHeight
 	 */
 	public double getPrefToastHeight()
@@ -410,7 +410,7 @@ public class JToasti extends VBox
 	}
 
 	/**
-	 * Sets the prefered height of the toast
+	 * Sets the preferred height of the toast
 	 * 
 	 * @since 1.0
 	 * @param prefToastHeight The height of the toast
