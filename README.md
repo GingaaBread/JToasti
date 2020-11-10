@@ -19,12 +19,10 @@ Naturally, the titles, descriptions, and icons can be customised.
 ## Download & Installation:
 Just add the jar to your project build path to use JToasti
 
-Version 1.0:
-www.shorturl.at/hFJ17
+Version 3.0:
+www.shorturl.at/koKY7
 
-Version 2.0:
-www.shorturl.at/bezHZ
-
+You can also find older versions in the Releases section. Please note that these are not recommended as they are outdated.
 <hr>
 
 ## How to use:
@@ -35,18 +33,18 @@ Simple Example:
 // Creates the toast container
 JToasti toastContainer = new JToasti();
 		
-// You can use a simple lamda expression to add an undo event
-toastContainer.setOnUndo( () -> System.out.println("Undid the last action"));
-		
+// You can use a simple lamda expression to add an event
+toastContainer.setOnUndo( e -> System.out.println("Undid the last action"));
+
 // Spawns an undo toast
 anyButton.setOnAction(e -> toastContainer.spawnToast(ToastType.UNDO, "Deletion", "Successfully deleted the file"));
 		
-// Adds the toast container to the anchor pane
-anchorPane.getChildren().add(toastContainer);
+// Adds the toast container to a pane
+anyPane.getChildren().add(toastContainer);
 ```
 
 ## Adjustments:
-Of course you can change the toast icons as well as title and description fonts. You can also adjust the toast lifetime and its preferred height. In order to do so simply use the respective setter methods. As the JToasti class extends JavaFX's VBox, you can obviously use all VBox methods (like spacing) as well.  
+Of course you can change the toast icons as well as title and description fonts. You can also adjust the toast lifetime, the fadeout speed, its preferred height, and its preferred width. In order to do so simply use the respective setter methods. As the JToasti class extends JavaFX's VBox, you can obviously use all VBox methods (like spacing) as well.  
 
 <hr>
 
