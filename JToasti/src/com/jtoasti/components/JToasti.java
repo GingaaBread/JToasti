@@ -660,4 +660,5 @@ public class JToasti extends VBox
 	{
 		this.undoCloseButtonImage = undoCloseButtonImage;
 	}
+	
 }
